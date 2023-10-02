@@ -62,3 +62,11 @@ body {
   background: white;
   color: blue;
 }
+#desc {
+  padding: 0.5em 1em;
+  background: white;
+  border-bottom: 0.2em solid blue;
+  border-right: 0.2em solid blue;
+  width: 100%;
+  border-radius: 0.5em;
+}
