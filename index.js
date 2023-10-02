@@ -4,7 +4,7 @@ let numCon2 = document.getElementById("num2");
 let btn = document.querySelectorAll("button");
 
 function calculator(num1, num2, operator) {
-  if (operator === "+") {
+  /*   if (operator === "+") {
     return num1 + num2;
   } else if (operator === "-") {
     return num1 - num2;
@@ -13,6 +13,20 @@ function calculator(num1, num2, operator) {
   } else if (operator === "/") {
     return num1 / num2;
   } else {
+    return "Invalid Operator"
+  } */
+  //switch/case
+  switch (operator) {
+    case "+":
+      return num1 + num2;
+    case "-":
+      return num1 - num2;
+    case "*":
+      return num1 * num2;
+    case "/":
+      return num1 / num2;
+    default:
+      return "Invalid Operator";
   }
 }
 
